@@ -1,0 +1,14 @@
+[
+  {"q": "改了 Dockerfile 依赖，镜像里还是旧代码，怎么查？", "card": "docker-build-cache.md"},
+  {"q": "docker build 全是 CACHED，是不是缓存坏了", "card": "docker-build-cache.md"},
+  {"q": "有索引为什么还是全表扫描", "card": "postgres-slow-query.md"},
+  {"q": "EXPLAIN 显示 Seq Scan，索引建了没用上", "card": "postgres-slow-query.md"},
+  {"q": "只改几行 git diff 却显示几百行", "card": "git-line-endings.md"},
+  {"q": "为什么整片代码的 blame 都变成我了", "card": "git-line-endings.md"},
+  {"q": "crontab 写的九点，实际下午五点跑", "card": "cron-timezone.md"},
+  {"q": "定时任务时间差八小时", "card": "cron-timezone.md"},
+  {"q": "nginx 间歇 502 upstream prematurely closed", "card": "nginx-502-upstream.md"},
+  {"q": "接口直连正常经过 nginx 就 502", "card": "nginx-502-upstream.md"},
+  {"q": "ssh 突然提示 private key permissions too open", "card": "ssh-key-permissions.md"},
+  {"q": "昨天还能 ssh，今天说私钥权限太宽", "card": "ssh-key-permissions.md"}
+]

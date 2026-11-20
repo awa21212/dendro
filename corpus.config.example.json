@@ -1,0 +1,17 @@
+{
+  "default_scope": ["notes"],
+  "corpora": {
+    "notes": {
+      "desc": "my markdown notes and runbooks",
+      "sources": [
+        ["~/notes", ["*.md"]],
+        ["~/runbooks", null]
+      ]
+    },
+    "papers": {
+      "desc": "pdf-extracted research summaries",
+      "index": "D:/indexes/papers",
+      "sources": [["~/papers/*.md", null]]
+    }
+  }
+}

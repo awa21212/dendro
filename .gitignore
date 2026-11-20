@@ -1,0 +1,27 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# dendro build output
+index_*/
+vector_snapshot/
+bigram_cache_*.pkl
+*.bak
+*.bak-*
+*.broken
+
+# local config (never commit your own paths)
+corpus.config.json
+
+# editor / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+hitlog*.jsonl
+dendro/log/
+log/
